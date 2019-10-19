@@ -3,12 +3,19 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
+    margin-bottom: 25px;outline: saddlebrown;
 
     .logo-container {
       height: 100%;
       width: 70px;
       padding: 25px;
+    }
+
+    .welcome{
+      font-weight: bold;
+      color:saddlebrown;
+
+
     }
 
     .options {
