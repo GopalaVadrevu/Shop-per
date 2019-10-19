@@ -5,6 +5,7 @@ import './preview-collection.styles.scss';
 import CollectionItem from '../Collection-items/Collection-item.component';
 
 
+
 const PreviewCollection = ({title, items}) =>(
 
     <div>
@@ -17,8 +18,8 @@ const PreviewCollection = ({title, items}) =>(
                     <CollectionItem key={id} {...otherItemProps}/>
                 ))
             }
+             </div>
 
-        </div>
     </div>
 
 
